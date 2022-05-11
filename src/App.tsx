@@ -65,43 +65,7 @@ class App extends React.Component<Props, State> {
             flex: 2
           }}></div>
 
-          <div className="credits" 
-              style={{            
-                color: Colors.GRAY1
-          }}>
-            <a style={{
-              color: Colors.GRAY1,
-              textDecoration: "underline"
-            }}
-              href="https://github.com/rabbitcontrol/" target="#">
-              rcp-ts-client
-            </a>
-              &nbsp;written by&nbsp;
-            <a style={{
-              color: Colors.GRAY1,
-              textDecoration: "underline"
-            }}
-              href="https://ingorandolf.info/" target="#">
-              i-n-g-o
-            </a>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a style={{
-              color: Colors.GRAY1,
-              textDecoration: "underline"
-            }}
-              href="http://rabbitcontrol.cc/" target="#">
-              rabbitControl
-            </a>
-            <br/>
-            uses&nbsp;
-            <a style={{
-              color: Colors.GRAY1,
-              textDecoration: "underline"
-            }}
-              href="https://blueprintjs.com/" target="#">
-              blueprintjs
-            </a>
-          </div>
+          
         </div>
 
       </section>
