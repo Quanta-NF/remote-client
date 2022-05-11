@@ -150,7 +150,7 @@ export default class ConnectionDialog extends React.Component<Props, State> {
                 isOpen={this.state.isConnected !== true }
                 onConfirm={this.handleAlertConfirm}
             >
-                <Text><strong>Connect to a RabbitControl server</strong></Text>
+                <Text><strong>Bem vindo ao Controle Remoto da QUANTA!!</strong></Text>
                 <br/>
                 <br/>
                 <ControlGroup style={{alignItems: "center"}}>
