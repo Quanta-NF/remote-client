@@ -9,7 +9,7 @@ body {
     sans-serif; */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background-color: #293742;
+  background-color: #000000;
 }
 
 code {
@@ -24,7 +24,7 @@ hr {
   border-top: 1px;
   margin: 1em 0;
   padding: 0;
-  color: #293742; 
+  
 }
 
 .bp3-slider-handle:focus {

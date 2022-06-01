@@ -136,11 +136,11 @@ export default class ConnectionDialog extends React.Component<Props, State> {
             </div>
 
 
-            <div className="serverid" style={{
+          {/*   <div className="serverid" style={{
                 color: Colors.GRAY1, 
             }}>
                 {this.state.serverApplicationId !== "" ? `connected to: ${this.state.serverApplicationId} - ` : ""}{this.state.serverVersion !== "" ? `rcp: ${this.state.serverVersion}` : ""}
-            </div>
+            </div> */}
 
             <Alert
                 className={"bp3-dark"}
