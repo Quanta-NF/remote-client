@@ -144,13 +144,13 @@ export default class ConnectionDialog extends React.Component<Props, State> {
 
             <Alert
                 className={"bp3-dark"}
-                confirmButtonText="Connect"
-                icon="offline"
+                confirmButtonText="Conectar"
+                icon="globe-network"
                 intent={Intent.NONE}
                 isOpen={this.state.isConnected !== true }
                 onConfirm={this.handleAlertConfirm}
             >
-                <Text><strong>Bem vindo ao Controle Remoto da QUANTA!!</strong></Text>
+                <Text><strong>Controle Remoto</strong></Text>
                 <br/>
                 <br/>
                 <ControlGroup style={{alignItems: "center"}}>
@@ -163,7 +163,7 @@ export default class ConnectionDialog extends React.Component<Props, State> {
                 </ControlGroup>
                 <br/>
                 <ControlGroup style={{alignItems: "center"}}>
-                    <Text>Port:&nbsp;</Text>                    
+                    <Text>Porta:&nbsp;</Text>                    
                     <InputGroup
                         value={this.state.port.toFixed(0)}
                         min={1024}
@@ -174,12 +174,12 @@ export default class ConnectionDialog extends React.Component<Props, State> {
                 </ControlGroup>
                 <br/>
 
-                <Checkbox
+{/*                 <Checkbox
                     checked={this.state.rootWithTabs}
                     onChange={this.setTabsInRoot}
                 >
                     Tabs in Root
-                </Checkbox>
+                </Checkbox> */}
 
                 <div>
                     {this.state.error ? this.state.error : undefined}

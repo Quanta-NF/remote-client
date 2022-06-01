@@ -12,7 +12,7 @@ interface State {
 
 export class ParameterColorDivC extends React.Component<Props & InjectedProps, State> {
 
-    static readonly COMPONENT_DEFAULT_COLOR = Colors.GRAY1;
+    static readonly COMPONENT_DEFAULT_COLOR = Colors.VIOLET1;
 
     constructor(props: Props & InjectedProps) {
         super(props);

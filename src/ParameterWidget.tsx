@@ -480,7 +480,7 @@ export default class ParameterWidget extends React.Component<Props, State> {
                 
                 <div className="inner" style={{                    
                     border: (parameter instanceof GroupParameter) ? "1px solid #454545" : "1px solid #353535",
-                    background: (parameter instanceof GroupParameter) ? "transparent" : Colors.DARK_GRAY3
+                    background: (parameter instanceof GroupParameter) ? "transparent" : Colors.VIOLET1
                 }}>
                     {this.renderValue(parameter)}
                 </div>
